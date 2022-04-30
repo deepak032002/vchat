@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@200;400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-bangers {
+  font-family: "Bangers", cursive;
+}
+
+.alertContainer {
+  position: fixed;
+  top: 3rem;
+  width: 25rem;
+  transform: translateX(-100%);
+  transition: 0.6s;
+  z-index: 1001;
+}
+
+.alertShow {
+  transform: translateX(0%) !important;
+  transition: 0.6s;
+}
