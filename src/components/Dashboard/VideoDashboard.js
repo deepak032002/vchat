@@ -7,7 +7,7 @@ import shortid from 'shortid'
 
 const VideoDashboard = () => {
     const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
+    // const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
     const history = useNavigate();
